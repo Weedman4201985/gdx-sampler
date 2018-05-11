@@ -2,7 +2,6 @@ package com.Weedman4201985.Testgame;
 
 import com.Weedman4201985.Testgame.utils.GdxUtils;
 import com.badlogic.gdx.*;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -12,6 +11,8 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class InputListeningSample implements ApplicationListener, InputProcessor {
+
+
 
     private static final Logger log = new Logger(InputListeningSample.class.getName(), Logger.DEBUG);
     private static final int MAX_MESSAGE_COUNT = 15;

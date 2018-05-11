@@ -1,8 +1,10 @@
 package com.Weedman4201985.Testgame;
 
 import com.Weedman4201985.Testgame.utils.GdxUtils;
-import com.badlogic.gdx.*;
-import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.Application;
+import com.badlogic.gdx.ApplicationListener;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
